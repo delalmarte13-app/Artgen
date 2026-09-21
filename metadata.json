@@ -1,0 +1,6 @@
+{
+  "name": "ArtGen Studio - Atelier Digital con IA",
+  "description": "Estudio de creación y diseño profesional con IA para arquitectura, graffiti, fotografía de estudio, moda, interiorismo y bellas artes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
