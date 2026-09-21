@@ -3,8 +3,8 @@
   "short_name": "ArtGen Studio",
   "description": "Estudio de creación y diseño profesional con IA.",
   "lang": "es",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#fdfbf7",
@@ -12,19 +12,19 @@
   "categories": ["art", "design", "photo"],
   "icons": [
     {
-      "src": "/icon.svg",
+      "src": "icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
@@ -34,8 +34,8 @@
     {
       "name": "Abrir el estudio",
       "short_name": "Estudio",
-      "url": "/",
-      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+      "url": "./",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
     }
   ]
 }

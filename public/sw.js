@@ -1,5 +1,5 @@
 const CACHE_NAME = 'artgen-shell-v1';
-const APP_SHELL = ['/', '/index.html', '/manifest.webmanifest', '/icon.svg', '/icon-192.png', '/icon-512.png'];
+const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -25,6 +25,6 @@ self.addEventListener('fetch', (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy));
         return response;
       })
-      .catch(() => caches.match(event.request).then((cached) => cached || caches.match('/index.html')))
+    .catch(() => caches.match(event.request).then((cached) => cached || caches.match('./index.html')))
   );
 });
